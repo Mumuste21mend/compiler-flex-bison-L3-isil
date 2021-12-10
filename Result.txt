@@ -1,0 +1,53 @@
+
+C:\Users\MM-Stylish-21\Desktop\Compile>compIsil2020.exe0<Test.txt 
+Erreur semantique modification de constante a la ligne 23
+Incompatibilite de types a la ligne 24
+Incompatibilite de types a la ligne 25
+Erreur semantique division sur zero a la ligne 40
+Erreur semantique, formattage errone a l'instruction a la ligne 59
+Erreur semantique reallocation d'un tableau a la ligne 62
+Syntaxe correcte
+--------------------------------------
+LA TABLE DES SYMBOLES
+--------------------------------------
+Enc |Nom                      |Code      |Type      |Cst|Taille
+*  +|              $Nom_Classe|    header|          |  1|    0
+*  -|                     $var|       idf|      Reel|  0|    1
+*  -|                    $var1|       idf|      Reel|  0|    1
+*  -|                    $var2|       idf|      Reel|  0|    1
+*  -|                    $var3|       idf|      Reel|  0|    1
+*  *|                 @Chaines|    idfTab|    Chaine|  0|   23
+*  +|                   $var22|       idf|      Reel|  0|    1
+*  +|                   $varr1|       idf|      Reel|  0|    1
+*  +|                 $chchchI|       idf|    Chaine|  0|    1
+*  +|                     $csd|       idf|    Chaine|  0|    1
+*  +|                     $csq|       idf|    Chaine|  0|    1
+*  +|                    $v_ar|       idf|    Entier|  0|    1
+*  +|                       $x|       idf|    Entier|  0|    1
+*  +|                       $y|       idf|    Entier|  0|    1
+*  +|               $valentine|       idf|    Entier|  1|    1
+*  -|                     $yoo|       idf|      Reel|  1|    1
+*  +|                     @tab|    idfTab|    Entier|  0|   25
+*  +|                    @tab2|    idfTab|    Entier|  0|   50
+*  +|                    @tab3|    idfTab|    Entier|  0|  100
+*  +|                      @vv|    idfTab|    Entier|  0|    5
+*  +|                    @tabb|    idfTab|    Entier|  0|  255
+*  +|                   $sdq25|       idf|    Entier|  0|    1
+*  +|                @bluebird|    idfTab|    Entier|  0|    0
+*  +|                     $chr|       idf|    Chaine|  1|    1
+*  *|                    $chhr|       idf|    Chaine|  2|    1
+*  +|                   $K2000|       idf|    Entier|  1|    1
+*  +|                   $K2001|       idf|    Entier|  2|    1
+*  +|                   $K2002|       idf|    Entier|  1|    1
+*  +|                    $list|     liste|    Entier|  0|    0
+*  +|                   $list2|     liste|    Entier|  0|    0
+*  +|                   $list3|     liste|    Entier|  0|    0
+*  +|                   $list4|     liste|      Reel|  0|    0
+--------------------------------------
+LA TABLE DES LISTES
+--------------------------------------
+ Nom                      |Taille|Position
+*                    $list|     3|       2
+*                   $list2|     2|       1
+*                   $list3|     0|       0
+*                   $list4|     1|       1

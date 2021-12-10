@@ -1,0 +1,2 @@
+
+G:\IdeaProjects\Compile>compIsil2020.exe0<src/Test.txt 

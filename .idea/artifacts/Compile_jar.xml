@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Compile:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Compile_jar</output-path>
+    <root id="archive" name="Compile.jar">
+      <element id="module-output" name="Compile" />
+      <element id="extracted-dir" path="C:/Program Files/java/javafx-sdk-15/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/java/javafx-sdk-15/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/java/javafx-sdk-15/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/java/javafx-sdk-15/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/java/javafx-sdk-15/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/java/javafx-sdk-15/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/java/javafx-sdk-15/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/java/javafx-sdk-15/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files/java/javafx-sdk-15/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jfoenix-9.0.10.jar" path-in-jar="/" />
+      <element id="library" level="project" name="jfoenix-9.0.10" />
+      <element id="library" level="project" name="javafx" />
+    </root>
+  </artifact>
+</component>

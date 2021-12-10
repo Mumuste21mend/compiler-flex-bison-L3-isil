@@ -1,0 +1,64 @@
+import ISIL.io;
+import ISIL.lang;
+
+import ISIL.list;
+public class $Nom_Classe{
+private Reel $var,$var1,$var2,$var3;
+protected Chaine @Chaines[23];
+public Reel $var22,$varr1;
+public Chaine $chchchI,$csd,$csq;
+public Entier $v_ar,$x,$y;
+##Un second commentaire##
+public CONST Entier $valentine := 251;
+private CONST Reel $yoo := -25.145;
+public Entier @tab[25],@tab2[50],@tab3[125],@vv[5],@tabb,$sdq25,@bluebird;
+public CONST Chaine $chr := "Sis Semper Calumniam";
+protected CONST Chaine $chhr;
+public CONST Entier $K2000,$K2001,$K2002:=25;
+public Liste<Entier> $list,$list2,$list3;
+public Liste<Reel> $list4;
+main()
+{
+	$K2000:=25;
+	$valentine:=25;
+	$chchchI:=25;
+	$varr1:="Chaine";
+	Allouer(@tabb,255);
+	$list.ajouter(256);
+	$list.ajouter(256);
+	$list.ajouter(256);
+	$list.ajouter(256);
+	$list.svt();
+	$list2.ajouter(256);
+	$list2.ajouter(256);
+	$list.supprimer();
+	$list.reiterer();
+	@tab[5] := $v_ar;
+	$v_ar :=-25+@tab2[49]; ##Un quatrieme commentaire# f # #k
+	
+	##
+	$var22 :=$var+25/0+45*$var--54+45;
+	If($var<25)
+	{
+		In("%f",$var);
+	}
+	Elif($var<26){
+		In("%f",$var);
+	}
+	Else{
+		In("%f",$var);
+	}
+	FOR($var:=24;$var<25;$var22:=$var+22)
+	{
+		In("%f",$var22);
+		Out("Sis semper c#alumniam%f%f%f",$var,$var,$var);##Un cinquieme commentaire##
+		In("%s",$chchchI);##Un sixieme commentaire##
+		$list4.ajouter($var);
+	}##Un septieme commentaire##
+	Iterer($list){
+		Out("%k",$list4);
+	}
+	Out("It's all /o+v-e*r folks?!");
+	Allouer(@tab3,100);
+}
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="583.0" prefWidth="1029.0" style="-fx-background-color: #575757;">
+         <children>
+            <JFXButton layoutX="50.0" layoutY="534.0" onAction="#Compile" prefHeight="40.0" prefWidth="609.0" ripplerFill="#4d4d4d" style="-fx-background-color: white; -fx-background-opacity: 0.5; -fx-background-radius: 10;" text="COMPILE" textAlignment="CENTER">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font></JFXButton>
+            <JFXTextArea fx:id="textError" editable="false" focusColor="#405aa800" focusTraversable="false" labelFloat="true" layoutX="691.0" layoutY="15.0" prefHeight="296.0" prefWidth="301.0" style="-fx-border-color: WHITE; -fx-border-radius: 5px; -fx-border-width: 2px; -fx-fill-text: white;" stylesheets="@Style.css" unFocusColor="#4d4d4d00">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font></JFXTextArea>
+            <JFXTextArea fx:id="textArea" focusColor="#405aa800" layoutX="98.0" layoutY="14.0" prefHeight="296.0" prefWidth="559.0" style="-fx-border-color: WHITE; -fx-border-radius: 5px; -fx-border-width: 2px; -fx-fill-text: white;" unFocusColor="#4d4d4d00">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font></JFXTextArea>
+            <JFXTextArea fx:id="lineNo" editable="false" focusColor="#405aa800" focusTraversable="false" layoutX="50.0" layoutY="14.0" prefHeight="296.0" prefWidth="40.0" style="-fx-border-color: WHITE; -fx-border-radius: 5px; -fx-border-width: 2px; -fx-fill-text: white;" stylesheets="@Style.css" unFocusColor="#4d4d4d00">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font></JFXTextArea>
+            <TableView fx:id="symbole" editable="true" layoutX="49.0" layoutY="326.0" prefHeight="200.0" prefWidth="609.0" style="-fx-border-width: 2px; -fx-border-color: white; -fx-border-radius: 5px;" stylesheets="@Style.css">
+              <columns>
+                <TableColumn fx:id="enc" prefWidth="75.0" sortable="false" text="Modifier " />
+                <TableColumn fx:id="nom" editable="false" prefWidth="75.0" sortable="false" text="Nom" />
+                  <TableColumn fx:id="code" editable="false" prefWidth="75.0" sortable="false" text="Code" />
+                  <TableColumn fx:id="type" editable="false" prefWidth="75.0" sortable="false" text="Type" />
+                  <TableColumn fx:id="conste" editable="false" prefWidth="146.0" sortable="false" text="Constante" />
+                  <TableColumn fx:id="taille" editable="false" prefWidth="53.0" sortable="false" text="Taille" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+            <TableView fx:id="liste" layoutX="691.0" layoutY="326.0" prefHeight="200.0" prefWidth="301.0" style="-fx-border-radius: 5px; -fx-border-width: 2px; -fx-border-color: white;" stylesheets="@Style.css">
+               <columns>
+                  <TableColumn fx:id="nomL" editable="false" prefWidth="75.0" sortable="false" text="NomL" />
+                  <TableColumn fx:id="tailleL" editable="false" prefWidth="75.0" sortable="false" text="TailleL" />
+                  <TableColumn fx:id="positionL" editable="false" prefWidth="75.0" sortable="false" text="PositionL" />
+               </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+            <JFXButton layoutX="691.0" layoutY="534.0" onAction="#displayRes" prefHeight="40.0" prefWidth="301.0" ripplerFill="#4d4d4d" style="-fx-background-color: white; -fx-background-opacity: 0.5; -fx-background-radius: 10;" text="DISPLAY" textAlignment="CENTER">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font></JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

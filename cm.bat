@@ -1,0 +1,1 @@
+compIsil2020.exe<Test.txt 
